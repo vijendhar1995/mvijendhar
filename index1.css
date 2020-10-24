@@ -226,13 +226,13 @@ section skills skill {
     }
     .tm{
         text-align: center;
-        font-size: small;
+        font-size: xx-small;
         border: 3px solid rgb(100, 237, 225);
         background-color: cornsilk;
-        padding: 10px;
+        padding: 5px;
         box-sizing: border-box;
         padding-bottom: 2px;
-        padding-top: 20px;
+        
         margin-top: 2px;
     }
 
