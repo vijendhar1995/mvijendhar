@@ -154,7 +154,7 @@ section skills skill {
     padding: 40px;
 }
 
-@media all and (min-width: 200px){
+@media all and (min-width: 100px){
 
     section h1{
         font-size: 2rem;
