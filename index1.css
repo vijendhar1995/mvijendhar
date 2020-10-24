@@ -14,11 +14,7 @@ html{
     text-align: justify;
 } 
 
-body{
-    max-width: 1200px;
-    
-    
-}
+
 
 header {
     
@@ -28,12 +24,10 @@ header {
 }
 
 .complete {
-    
+    max-width: 1200px;
     background-color: rgb(242, 246, 247);
     margin-left: auto;
     margin-right: auto;
-    
-
 }
 
 .profile {
@@ -41,7 +35,7 @@ header {
 }
 
 section h1 {
-    font-size: 2rem;
+    font-size: 1rem;
 
 }
 
@@ -135,18 +129,10 @@ section skills skill {
     
 }
 
-.totalcontact{
-    display: grid;
-    grid-template-columns: 50% 1fr;
-    grid-gap: 4rem;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 0;
-    padding-bottom: 0;
-    box-sizing: border-box;
+
     
     
-}
+
 .tm{
     text-align: center;
     border: 3px solid rgb(100, 237, 225);
@@ -168,7 +154,12 @@ section skills skill {
     padding: 40px;
 }
 
-@media screen and (min-width: 480px){
+@media all and (min-width: 480px){
+
+    section h1{
+        font-size: 2rem;
+    }
+    
     .totalresume {
         display: grid;
         grid-template-columns: 45% 1fr;
@@ -176,12 +167,30 @@ section skills skill {
         padding: 20px;
         
     }
-    body{
-        max-width: 1200px;
-        
-        
+    body complete{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
     }
-    
+
+    .totalcontact{
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        grid-gap: 4rem;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .imp + .tm{
+        margin-bottom: 1rem;
+    }
+
+
+  
 }
 
 .span {
