@@ -171,7 +171,7 @@ section skills skill {
     
 }
 
-@media all and (max-width: 500px){
+@media all and (max-width: 360px){
 
     section h1{
         font-size: 2rem;
