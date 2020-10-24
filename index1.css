@@ -129,7 +129,16 @@ section skills skill {
     
 }
 
-
+.totalcontact{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 4rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
     
     
 
@@ -154,19 +163,27 @@ section skills skill {
     padding: 40px;
 }
 
-@media all and (min-width: 100px){
+.totalresume {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    grid-gap: 4rem;
+    padding: 20px;
+    
+}
+
+@media all and (max-width: 500px){
 
     section h1{
         font-size: 2rem;
     }
-    
     .totalresume {
-        display: grid;
-        grid-template-columns: 45% 1fr;
-        grid-gap: 4rem;
+        display: block;
+        
+        
         padding: 20px;
         
     }
+    
     body complete{
         text-align: center;
         margin-left: auto;
@@ -175,9 +192,7 @@ section skills skill {
     }
 
     .totalcontact{
-        display: grid;
-        grid-template-columns: 50% 1fr;
-        grid-gap: 4rem;
+        display: block;
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 0;
@@ -185,9 +200,7 @@ section skills skill {
         box-sizing: border-box;
     }
 
-    .imp + .tm{
-        margin-bottom: 1rem;
-    }
+    
 
 
   
