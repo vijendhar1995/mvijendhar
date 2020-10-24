@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    background-image: linear-gradient(to bottom right, rgb(166, 245, 76), rgb(216, 180, 223));
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    line-height: 1.5;
+    text-align: justify;
+} 
+
+body{
+    max-width: 1200px;
+    
+    
+}
+
+header {
+    
+    background-image: linear-gradient(to bottom , rgb(141, 202, 204), white);
+    display: block;
+    box-sizing: border-box;
+}
+
+.complete {
+    
+    background-color: rgb(242, 246, 247);
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.profile {
+    text-indent: 10px;
+}
+
+section h1 {
+    font-size: 2rem;
+
+}
+
+section h2{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: salmon;
+    
+}
+
+section p {
+    line-height: 1.5;
+}
+
+section + section {
+    margin-top: 2rem;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section a{
+    text-decoration: none;
+    color: inherit;
+}
+.textimg {
+    padding-top: 3px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.textimg img{
+    border-radius: 50% 50%;
+    width: 10rem;
+    height: 10rem;
+    
+}
+
+.textimg p {
+    margin-bottom: 10px;
+    color: rgb(0, 117, 111);
+    font-size: 109%;
+}
+
+section li + li {
+    margin-top: 0.5rem;
+}
+
+section skills skill {
+    text-align: center;
+}
+
+.timeline .event + .event{
+    padding-top: 1rem;
+}
+
+.timeline .event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+
+.timeline .content {
+    border-left: 1px solid black;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.content h3 + p  {
+    margin-bottom: 1rem;
+    color: rgb(40, 165, 165);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.contact {
+    background-color: rgb(242, 254, 255);
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.totalcontact{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 4rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    
+    
+}
+.tm{
+    text-align: center;
+    border: 3px solid rgb(100, 237, 225);
+    background-color: cornsilk;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.imp{
+    border: 3px solid rgb(100, 237, 225);
+    background-color: cornsilk;
+    text-align: center;
+    padding-left: 20px ;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.totalresume {
+    padding: 40px;
+}
+
+@media screen and (min-width: 480px){
+    .totalresume {
+        display: grid;
+        grid-template-columns: 45% 1fr;
+        grid-gap: 4rem;
+        padding: 20px;
+        
+    }
+    body{
+        max-width: 1200px;
+        
+        
+    }
+    
+}
+
+.span {
+    text-align: center;
+}
+span duration{
+    text-align: center;
+}
+.imp p2 {
+    font-weight: bold;
+}
