@@ -28,6 +28,7 @@ header {
     background-color: rgb(242, 246, 247);
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .profile {
@@ -173,6 +174,12 @@ section skills skill {
 }
 
 @media all and (max-width: 480px){
+    html {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 95%;
+        line-height: 1.5;
+        text-align: justify;
+    }
 
     section h1{
         font-size: 1.5rem;
@@ -187,45 +194,9 @@ section skills skill {
         
     }
     
-    body complete{
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    .totalcontact{
-        display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 0;
-        padding-bottom: 0;
-        box-sizing: border-box;
-    }
-}
-
-@media all and (max-width: 100px){
-
-    section h1{
-        font-size: 1.5rem;
-    }
-    .textimg em {
-        font-size: 0.5 rem;
-
-    }
-    .totalresume {
-        display: block;
-        padding: 20px;
-        
-    }
     
-    body complete{
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
 
-    }
-
+    
     .totalcontact{
         display: block;
         padding-left: 50px;
@@ -235,6 +206,8 @@ section skills skill {
         box-sizing: border-box;
     }
 }
+
+
 
 @media all and (max-width: 500px){
 
